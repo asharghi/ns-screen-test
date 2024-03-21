@@ -4,12 +4,10 @@
       <Label text="Home" />
     </ActionBar>
 
-    <StackLayout margin="10" :key="updateKey">
-      <GridLayout rows="auto" columns="*,auto">
-        <Label fontSize="20" text="Update count" />
-        <Label fontSize="20" :text="updateCount" col="1" />
-      </GridLayout>
-    </StackLayout>
+    <GridLayout margin="10" rows="auto" columns="*,auto">
+      <Label fontSize="20" text="Update count" />
+      <Label fontSize="20" :text="updateCount" col="1" />
+    </GridLayout>
   </Page>
 </template>
 
